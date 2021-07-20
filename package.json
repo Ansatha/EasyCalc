@@ -1,0 +1,26 @@
+{
+  "name": "easycalc",
+  "version": "1.0.0",
+  "description": "Un proyecto de una calculadora simple que muestra el resultado de las operaciones (+-*/) en diferentes formatos y el historial. Una archivo para la class de los calculos, otro para la class que muestra en pantalla los datos y un 3er archivo de test para probar todas las funcionalidades.",
+  "main": "test.js",
+  "scripts": {
+    "test": "mode test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ansatha/EasyCalc.git"
+  },
+  "keywords": [
+    "calc",
+    "calculator",
+    "calculadora",
+    "easyCalc",
+    "virtualCalc"
+  ],
+  "author": "Ansatha☥",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ansatha/EasyCalc/issues"
+  },
+  "homepage": "https://github.com/Ansatha/EasyCalc#readme"
+}
