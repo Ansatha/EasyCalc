@@ -2,7 +2,7 @@
 ||                                    ↓ DESCRIPCION ↓                                          ||
 =================================================================================================
  Este modesto projecto ha sido creado por motivos puramente didácticos y su limitada utilidad no
- pretende cubrir otras necesidades que la ya descrita al ser desarrolado.
+ pretende cubrir otras necesidades que la ya descrita al ser desarrollado.
 
  Consta de una class (virtualCalc) que se encarga de maketar los resultados por pantalla, un
  archivo (test) para probar todas las funcionalidades y otra class (easyCalc) que lleva el peso
