@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Ansatha/EasyCalc/issues"
   },
-  "homepage": "https://github.com/Ansatha/EasyCalc#readme"
+  "homepage": "https://github.com/Ansatha/EasyCalc#readme",
+  "dependencies": {
+    "easycalc": "^0.1.5"
+  }
 }
