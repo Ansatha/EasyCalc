@@ -1,5 +1,5 @@
 
- DESCRIPCION
+ DESCRIPCION.
 
  Este modesto projecto ha sido creado por motivos puramente didácticos y su limitada utilidad no
  pretende cubrir otras necesidades que la ya descrita al ser desarrollado.
@@ -41,5 +41,3 @@
         2. resta(:number[]):number     -> Igual que el método suma, pero restando.
         3. multiplicacion " " " "      -> Igual que el método suma, pero restando.
         4. division(:number[]):number  -> Igual que el método suma, pero restando.
-
-=================================================================================================*/
