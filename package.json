@@ -1,6 +1,6 @@
 {
   "name": "myeasycalc",
-  "version": "2.0.0",
+  "version": "2.0.1-0",
   "description": "Calculadora básica de operaciones aritméticas (+-*/) que muestra: 1.El último resultado en varios fomatos y 2.Un registro con todos los resultados",
   "main": "test.js",
   "scripts": {
