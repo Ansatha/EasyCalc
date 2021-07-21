@@ -1,7 +1,7 @@
 {
-  "name": "easycalc",
-  "version": "2.0.0",
-  "description": "Calculadora de operaciones aritméticas básicas (+-*/) que muestra el resultado en diferentes formatos además de un registro de las operaciones realizadas.",
+  "name": "myeasycalc",
+  "version": "1.0.0",
+  "description": "Calculadora básica de operaciones aritméticas (+-*/) que muestra el ultimo resultado en varios fomatos y ademas muestra un registro con todos los resultaods",
   "main": "test.js",
   "scripts": {
     "test": "node test.js"
@@ -12,7 +12,6 @@
   },
   "keywords": [
     "calc",
-    "easycalc",
     "calculator"
   ],
   "author": "ansatha",
