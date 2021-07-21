@@ -1,0 +1,24 @@
+{
+  "name": "easycalc",
+  "version": "2.0.0",
+  "description": "Calculadora de operaciones aritméticas básicas (+-*/) que muestra el resultado en diferentes formatos además de un registro de las operaciones realizadas.",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ansatha/EasyCalc.git"
+  },
+  "keywords": [
+    "calc",
+    "easycalc",
+    "calculator"
+  ],
+  "author": "ansatha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ansatha/EasyCalc/issues"
+  },
+  "homepage": "https://github.com/Ansatha/EasyCalc#readme"
+}
