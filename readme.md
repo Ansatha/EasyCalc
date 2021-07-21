@@ -1,6 +1,6 @@
-/*===============================================================================================
-||                                    ↓ DESCRIPCION ↓                                          ||
-=================================================================================================
+
+ DESCRIPCION
+
  Este modesto projecto ha sido creado por motivos puramente didácticos y su limitada utilidad no
  pretende cubrir otras necesidades que la ya descrita al ser desarrollado.
 
