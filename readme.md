@@ -26,10 +26,13 @@
               virtualCalc.ts
  
 
+
+
  USO
 
   El paquete consta de dos clases:
-    a.EasyCalc.
+    
+    a. EasyCalc.
       Para utilizarla, es necesario importarla primero:
         import { EasyCalc } from 'ruta'
     
@@ -39,15 +42,18 @@
       devuelven un valor resultado.
         
       Si no introducimos argumentos al invocar alguno de los métodos de
-      cálculo aritmético, se realizará el cálculo entre dos numeros aleatorios.
+      cálculo aritmético, se realizará el cálculo entre dos numeros
+      aleatorios.
         console.log(myObjetCalc.suma()); ==> Un numero aleatorio entre 0 y 18
         console.log(myObjetCalc.division([1200, 10, 6])); ==> 200
 
-      Podemos invocar estos métodos instantiando o sin instanciar ningún objeto.
+      Podemos invocar estos métodos instantiando o sin instanciar ningún
+      objeto.
         console.log(myObjetCalc.resta([3, 2])) ==> 1
         console.log(EasyCalc.resta([3, 2])) ==> 1
       
-      Con los métodos get y set se puede llamar o actualizar cualquier atributo.
+      Con los métodos get y set se puede llamar o actualizar cualquier
+      atributo.
 
       Por último, el método myObjetCalc.reset() elimina todos los valores
       almacenados i los inicializa a 0.
@@ -58,12 +64,15 @@
         import { VirtualCalc } from 'ruta'
 
       Esta clase tiene el método: pint() que requiere de un objeto tipo
-      EasyCalc como argumento y nos muestra por pantalla los resultados con una
-      estetica que emula una calculadora.
+      EasyCalc como argumento y nos muestra por pantalla los resultados con
+      una estética que emula una calculadora.
         myVirtualCalc(myObjetCalc)
 
+  
   En el archivo 'test.ts/js' se pueden encontrar mas ejemplos de uso de ambas
   clases y a continuación una descripcion mas pormenorizada de las mismas.
+
+
 
 
  DESCRIPCION Y NOTAS DEL AUTOR.
@@ -75,9 +84,9 @@
  En este texto se describe extensivamente el funcionamiento del paquete.
 
  El paquete consta de una class (virtualCalc) que se encarga de maquetar los
- resultados por pantalla, un archivo (test) para probar todas las funcionalidades
- y otra class (easyCalc) que lleva el peso operativo del proyecto y que se
- describe a continuación:
+ resultados por pantalla, un archivo (test) para probar todas las
+ funcionalidades y otra class (easyCalc) que lleva el peso operativo del
+ proyecto y que se describe a continuación:
    
  a. EasyCalc class permite la instanciación de objetos con las siguientes
  características:
@@ -90,28 +99,29 @@
 
     - El constructor tiene un(1) solo argumento:number que es 0 por defecto.
 
-    - Un(1) método privado: autoUpdate(:number):void para disparar los métodos
-    encargados de actualizar el valor de los tres atributos.
+    - Un(1) método privado: autoUpdate(:number):void para disparar los
+    métodos encargados de actualizar el valor de los tres atributos.
 
     - Cuatro(4) métodos públicos:
-        1. suma(:number[]):number      -> Un(1) argumento:number[] con (n ||
-                                          default:2random) elementos, que se suman
-                                          uno tras otro, disparan el método auto-
-                                          Update y devuelve el resultado:number.
-        2. resta(:number[]):number     -> Igual que el método suma, pero restando.
-        3. multiplicacion " " " "      -> "     "   "  "      "     "multiplicando.
-        4. division(:number[]):number  -> "     "   "  "      "     "   dividiendo.
+        1. suma(:number[]):number     -> Un(1) argumento:number[] con (n ||
+                                        default:2random) elementos, que se
+                                        suman uno tras otro, disparan el
+                                        método auto-Update y devuelve el
+                                        resultado:number.
+        2. resta(:number[]):number    -> Igual que suma pero restando.
+        3. multiplicacion " " " "     -> "     "   "    "     "multiplicando.
+        4. division(:number[]):number -> "     "   "    "     "   dividiendo.
                                             
-    - Un(1) método público: reset():void que dispara los métodos necesarios para
-    eliminar el contenido de los tres atributos e igualarlos a 0;
+    - Un(1) método público: reset():void que dispara los métodos necesarios
+    para eliminar el contenido de los tres atributos e igualarlos a 0;
 
  b. Y además, permite llamar sin instanciar a:
                                             
     - Cuatro(4) métodos públicos static:
-        1. suma(:number[]):number      -> Invocación sin instanciación. Un(1)
-                                          argumento:number[] con (n || default:
-                                          2random) elementos, que se suman uno
-                                          tras otro y devuelve el resultado:number.
-        2. resta(:number[]):number     -> Igual que el método suma, pero restando.
-        3. multiplicacion " " " "      -> Igual que el método suma, pero restando.
-        4. division(:number[]):number  -> Igual que el método suma, pero restando.
+        1. suma(:number[]):number     -> Invocación sin instanciación. Un(1)
+                                        argumento:number[] con (n || default:
+                                        2random) elementos, que se suman uno
+                                        tras otro. devuelve el resultado:num.
+        2. resta(:number[]):number    -> Como la suma, pero restando.
+        3. multiplicacion " " " "     -> Como la suma, pero multiplicando.
+        4. division(:number[]):number -> Como la suma, pero dividiendo.
