@@ -62,6 +62,8 @@
       estetica que emula una calculadora.
         myVirtualCalc(myObjetCalc)
 
+  En el archivo 'test.ts/js' se pueden encontrar mas ejemplos de uso de ambas
+  clases y a continuación una descripcion mas pormenorizada de las mismas.
 
 
  DESCRIPCION Y NOTAS DEL AUTOR.
