@@ -1,7 +1,7 @@
 {
   "name": "myeasycalc",
-  "version": "2.0.4",
-  "description": "Calculadora básica de operaciones aritméticas (+-*/) que muestra: [ 1. El último resultado en varios fomatos, 2. Un registro con todos los resultados ]",
+  "version": "2.1.0",
+  "description": "Calculator for basic aritmetic operations (+-*/) wich shows: [ 1. the last result in several formats, 2. A log with th historic results ] in a cool calculator skin design.",
   "main": "test.js",
   "scripts": {
     "test": "node test.js"
