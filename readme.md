@@ -70,7 +70,7 @@
  </ol>
  <br>
  <br>
- <div>En el archivo 'test.ts/js' se pueden encontrar mas ejemplos de uso de ambas
+ <div>En el archivo 'test.ts' se pueden encontrar mas ejemplos de uso de ambas
   clases.</div>
 </p>
 </h5>
