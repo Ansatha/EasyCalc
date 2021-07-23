@@ -1,4 +1,4 @@
-<h1>INSTALATION
+<h1>HOW TO INSTALL
 <br>
 <h5>
  <p>
