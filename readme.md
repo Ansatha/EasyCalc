@@ -1,20 +1,20 @@
-<h1>INSTALACION
+<h1>INSTALATION
 <br>
 <h5>
  <p>
  <ol>
-  <li>Creación de una nueva carpeta de projecto:
+  <li>Make a new project directory:
    <div class = class="snippet-clipboard-content position-relative"><pre><code>$ mkdir easyCalc</code></pre></div>
-  <li>Hacer/comprobar login en npmjs.com:
+  <li>Check login in npmjs.com:
    <div class = class="snippet-clipboard-content position-relative"><pre><code>$ npm login</code></pre></div>
-  <li>Iniciar un proyecto de npm:
+  <li>Iniciate a new npm project:
    <div class = class="snippet-clipboard-content position-relative"><pre><code>$ cd easyCalc</code></pre></div>
    <div class = class="snippet-clipboard-content position-relative"><pre><code>$ npm init -f</code></pre></div>
-  <li>Y por último, instalación del paquete 'myeasycalc':
+  <li>Lastly, install 'myeasycalc' package:
    <div class = class="snippet-clipboard-content position-relative"><pre><code>$ npm install myeasycalc</code></pre></div>
  </ol>
  </p>
- <p><div>Tras la correcta instalación estos archivos apareceran en la carpeta:</div></p>
+ <p><div>After a clean instalation, these are the files should came up:</div></p>
  <h7><p>
   <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package-lock.json</div>
   <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package.json</div>
@@ -31,46 +31,46 @@
   <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;virtualCalc.ts</div>
  </p>
 <br>
-<h1>USO
+<h1>HOW TO USE
 <br>
 <h5>
- <p><h3><div>El paquete consta de dos clases:</div></h3>
+ <p><h3><div>The package has two classes:</div></h3>
  <ol>
   <h3><li><div>EasyCalc class.</div></h3>
-   <div>Para utilizarla, es necesario importarla primero:</div>
+   <div>First, import the class in order to use it:</div>
    <div class = class="snippet-clipboard-content position-relative"><pre><code>import { EasyCalc } from './node_modules/myeasycalc/easyCalc'</code></pre></div>
-   <div>La clase contiene los métodos (suma, resta, multiplicación y división),</div>
-   <div>para realizar operaciones aritméticas básicas. Todos ellos esperan como</div>
-   <div>argumento (opcional) un array de numeros con los que queremos operar y</div>
-   <div>devuelven un valor resultado.</div>
+   <div>The class contains four methods (sum, rest, multiplication and division),</div>
+   <div>wich are ready to apply basic aritmetic operations. All of them are listen</div>
+   <div>for an (optional) argument, in form of array of numbers, to operate with and</div>
+   <div>as return, a calculated number is obtained.</div>
    <br>     
-   <div>Si no introducimos argumentos al invocar alguno de los métodos de</div>
-   <div>cálculo aritmético, se realizará el cálculo entre dos numeros aleatorios.</div>
+   <div>If no argument is passed at the invocation moment, these methods</div>
+   <div> will be delivering a result anyway operating from two random numbers.</div>
    <div class = class="snippet-clipboard-content position-relative"><pre><code>console.log(myObjetCalc.suma());</code></pre></div>
    <br>
-   <div>Podemos invocar estos métodos instantiando o sin instanciar ningún</div>
-   <div>objeto.</div>
+   <div>It is posible invoque these methods with or without an instance</div>
+   <div>from the class.</div>
    <div class = class="snippet-clipboard-content position-relative"><pre><code>console.log(new EasyCalc().resta([3,2]));</code></pre></div>
    <div class = class="snippet-clipboard-content position-relative"><pre><code>console.log(EasyCalc.resta([3, 2]));</code></pre></div>
    <br>
-   <div>Con los métodos get y set se puede llamar o actualizar cualquier
-      atributo.</div>
+   <div>There are  Get and Set methods to call or update every attribute</div>
+   <div>into the class.</div>
    <br>
-   <div>Por último, un método para eliminar todos los valores almacenados</div>
-   <div>que los inicializa a 0.</div>
+   <div>The last method is used to erease all value in every attribute</div>
+   <div>and initialice them with value 0.</div>
    <div class = class="snippet-clipboard-content position-relative"><pre><code>myObjetCalc.reset();</code></pre></div> 
    <br>
    <h3><li><div>VirtualCalc class.</div></h3>
-   <div>Para utilizarla, es necesario importarla primero:</div>
+   <div>First, import the class in order to use it:</div>
    <div class = class="snippet-clipboard-content position-relative"><pre><code>import { VirtualCalc } from './node_modules/myeasycalc/virtualCalc'</code></pre></div>
-   <div>Esta clase tiene el método: pint() que requiere de un objeto tipo</div>
-   <div>EasyCalc como argumento y nos muestra por pantalla los resultados con</div>
-   <div>una estética que emula una calculadora.</div>
+   <div>This class has only one method: pint() An argument EasyCalc objet</div>
+   <div>must be provide and as return, the class deliver every calculation</div>
+   <div>results in a calculator simulation skin.</div>
    <div class = class="snippet-clipboard-content position-relative"><pre><code>myVirtualCalc(myObjetCalc);</code></pre></div>
  </ol>
  <br>
  <br>
- <div>En el archivo 'test.ts' se pueden encontrar mas ejemplos de uso de ambas
-  clases.</div>
+ <div>The file 'test.ts' includes a full display of examples using</div>
+ <div>both classes and all their methods and attributes.</div>
 </p>
 </h5>
