@@ -1,7 +1,7 @@
 {
   "name": "myeasycalc",
   "version": "2.0.4",
-  "description": "Calculadora básica de operaciones aritméticas (+-*/) que muestra: 1.El último resultado en varios fomatos y 2.Un registro con todos los resultados",
+  "description": "Calculadora básica de operaciones aritméticas (+-*/) que muestra: [ 1. El último resultado en varios fomatos, 2. Un registro con todos los resultados ]",
   "main": "test.js",
   "scripts": {
     "test": "node test.js"
